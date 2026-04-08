@@ -16,24 +16,36 @@ Thank you for helping preserve Csound's software heritage! This repository uses 
    ```
 
    For example: `cecilia5`, `cmask`, `winsound`.
-3. **Place the archive file(s)** in the correct platform folder:
-   - `Linux/` — Linux builds and source tarballs
-   - `Mac/` — macOS builds
-   - `Windows/` — Windows builds
-   - If you are unsure about the correct folder, use Unsorted.
+
+3. **Place the archive file(s)** in the correct folder:
+   - `Linux/` — Linux **binaries**
+   - `Mac/` — macOS **binaries**
+   - `Windows/` — Windows **binaries**
+   - `src/` — source code archives and cross-platform source tarballs
+   - `Unsorted/` — files you are unsure about
+
+   **Rule of thumb:** platform-specific binaries go in `Linux/`, `Mac/`, or `Windows/`. Source code and source tarballs go in `src/`. If unsure, use `Unsorted/`.
+
 4. **Update `README.md`** — add or complete the entry for the software:
    - Name and version
    - Original description (copy from the project's original page)
    - Author(s)
    - Original URL or archive link (Wayback Machine, SourceForge, GitHub, etc.)
    - Screenshot (if available, place it in a `screenshots/` folder)
-5. **Commit and push** your branch:
+5. **Commit and push** your branch using the conventional commit format `software(type): description`:
 
    ```bash
    git add .
-   git commit -m "Add <software-name> v<version>"
+   git commit -m "cecilia(feat): add v2.0.5 archive"
    git push origin software-name
    ```
+
+   Common types: `feat` (new archive/entry), `fix` (corrections), `chore` (maintenance), `docs` (documentation only).
+
+   More examples:
+   - `cmask(feat): add macOS binary`
+   - `cecilia(chore): correct documentation`
+   - `winsound(docs): add original description`
 
 6. **Open a Pull Request** against `main`.
 
@@ -50,14 +62,16 @@ Thank you for helping preserve Csound's software heritage! This repository uses 
 ```markdown
 ### Software Name vX.Y.Z
 
-|                  |                                                    |
-| ---------------- | -------------------------------------------------- |
-| **Author(s)**    | First Last                                         |
-| **License**      | GPLv2 / LGPL / etc.                                |
-| **Platform**     | Linux / Mac / Windows / Cross-platform             |
-| **Original URL** | [example.com](https://example.com)                 |
-| **Archive URL**  | [Wayback Machine](https://web.archive.org/web/...) |
-| **Archive file** | `filename.tar.gz`                                  |
+|                        |                                                               |
+| ---------------------- | ------------------------------------------------------------- |
+| **Author(s)**          | First Last                                                    |
+| **License**            | GPLv2 / LGPL / etc.                                           |
+| **Platform**           | Linux / Mac / Windows / Cross-platform                        |
+| **Original URL**       | [example.com](https://example.com)                            |
+| **Archive URL**        | [Wayback Machine](https://web.archive.org/web/...)            |
+| **Archive file**       | `filename.tar.gz`                                             |
+| **Paper**              | [Paper title](https://example.com/paper.pdf) _(if available)_ |
+| **Last compatible OS** | Windows XP / macOS 10.6 / etc. _(if known)_                   |
 
 > Original description copied verbatim from the project page.
 
@@ -65,3 +79,7 @@ Thank you for helping preserve Csound's software heritage! This repository uses 
 
 ![Screenshot](screenshots/software-name.png)
 ```
+
+## Contact
+
+If you believe a software entry is missing, needs to be added, or should be removed from this archive, please reach out at **<giuseppeernandez@hotmail.it>**.

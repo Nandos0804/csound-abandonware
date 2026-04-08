@@ -61,10 +61,30 @@ An archival repository for abandoned, discontinued, or hard-to-find software too
 | **Author(s)**    | Alexandre Burton, Jean Piché (Faculté de Musique, Université de Montréal). Ported to Linux by Dave Philips. Contributions by Stephan Bourgeois, Yves de Champlain. Maintained by Bill Beck, Phil Sobolik, Hans-Christoph Steiner. macOS 2.5 maintained by Jean Piché. |
 | **License**      | LGPL                                                                                                                                                                                                                                                                  |
 | **Platform**     | Cross-platform (Tcl/Tk)                                                                                                                                                                                                                                               |
-| **Original URL** | [jeanpiche.com](http://jeanpiche.com/frame_software.htm)                                                                                                                                                                                                              |
+| **Original URL** | [jeanpiche.com](http://jeanpiche.com/frame_software.htm), [SourceForge](https://sourceforge.net/projects/cecilia/files/)                                                                                                                                              |
+| **Paper**        | [DAFx 2006](https://dafx.de/paper-archive/2006/papers/p_315.pdf)                                                                                                                                                                                                      |
 | **Archive file** | `cecilia-2.0.5.tar.gz`                                                                                                                                                                                                                                                |
 
-> Cecilia is a program to make sound. Sound in its widest definition. Sound as music, sound as composition, sound as accessory. Cecilia is a general sound-processing environment, a graphical interface, a text editor, and a music programming language. Cecilia serves the composer with little programming experience and the programmer with little composing experience. Cecilia operates on top of Csound, the audio/DSP engine from Barry Vercoe at MIT. Cecilia also contains a powerful score generation language called Cybil, drawing ancestry from CCRMA's Score program by Leland Smith.
+> Cecilia is a program to make sound. Sound in its widest definition. Sound as music, sound as composition, sound as accessory.
+>
+> Cecilia is a general sound-processing environment
+> Cecilia is a graphical interface
+> Cecilia is a text editor
+> Cecilia is a music programming language
+>
+> Cecilia serves the composer with little programming experience and the programmer with little composing experience. There is very little, sound wise, that cannot be done with Cecilia. Cecilia operates on top of Csound, the audio/dsp engine from Barry Vercoe at MIT.
+>
+> **CONTEXT**
+>
+> Cecilia was built for musicians and programmers, which I happen to be. Cecilia was first developped as a "musique concrète" composition system in 1995-96. It ran on SGI IRIX workstations. The idea was to replace our old analog/MIDI studios at the Faculté de musique of the Université de Montréal with a unified digital sound production environment. Hence the "module" concept of individual Csound code blocks to fill all the functions of traditional "musique concrète" studio gear. The interface was built around time variant functions to allow composing time contours of any processing control parameter. Realtime screen and MIDI sliders were provided for interaction and recording of "gestures".
+>
+> The very first version of Cecilia was known as "Cynthia" and it was an editor for csound orchestras and scores. That is the Cecilia editor today. It provides services to the programmer. There is syntax highlighting, a quick syntax referencer, an opcode inserter, and shortcuts to the csound manual. Keyboard bindings mostly follow the emacs scheme and there are window panes for interface, orchestras and score definitions.
+>
+> Cecilia also contains a powerful score generation language called Cybil. It draws ancestry to CCRMA's Score program by Leland Smith. This is an area in Cecilia that bares exploring. There are wonderful algorithms to be found. All of Cecilia is constructed in tcl/tk, a slow yet appropriate scripting language as Cecilia does no audio computations.
+>
+> Cecilia was initially developed by Alexandre Burton and Jean Piché of the Faculté de Musique at Université de Montréal from 1995 to 1998. It was then ported to Linux by Dave Philips. Stephan Bourgeois and Yves de Champlain also contributed. It is currently maintained by Bill Beck, Phil Sobolik, and Hans-Christoph Steiner. The 2.5 OSX version is maintained by Jean Piché.
+>
+> Cecilia runs under the LGPL licence. Its official, and I think it means you can feed this code to your dog as long as it has my name in it.
 
 ---
 
@@ -245,10 +265,12 @@ An archival repository for abandoned, discontinued, or hard-to-find software too
 ## Repository Structure
 
 ```bash
-├── Linux/          # Linux builds and source archives
-├── Mac/            # macOS builds
-├── Windows/        # Windows builds
-├── screenshots/    # Screenshots of archived software (if available)
+├── Linux/          # Linux binaries
+├── Mac/            # macOS binaries
+├── Windows/        # Windows binaries
+├── src/            # Source code archives and source tarballs
+├── Unsorted/       # Files not yet classified
+├── Screenshots/    # Screenshots of archived software (if available)
 ├── .gitattributes  # Git LFS tracking rules
 ├── CONTRIBUTING.md # How to contribute
 └── README.md       # This file
