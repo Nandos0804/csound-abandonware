@@ -23,6 +23,15 @@ An archival repository for abandoned, discontinued, or hard-to-find software too
 - [HPKComposer](#hpkcomposer)
 - [Winsound](#winsound)
 - [Amsterdam Catalogue of Csound Computer Instruments (ACCCI)](#amsterdam-catalogue-of-csound-computer-instruments-accci)
+- [Corn Bucket](#corn-bucket)
+- [Ceres](#ceres)
+- [ngen](#ngen)
+- [Pmask](#pmask)
+- [Bol Processor](#bol-processor)
+- [Lettuce](#lettuce)
+- [AlgoScore](#algoscore)
+- [Composers' Desktop Project (CDP)](#composers-desktop-project-cdp)
+- [NetCsound](#netcsound)
 
 ---
 
@@ -73,18 +82,6 @@ An archival repository for abandoned, discontinued, or hard-to-find software too
 > Cecilia is a music programming language
 >
 > Cecilia serves the composer with little programming experience and the programmer with little composing experience. There is very little, sound wise, that cannot be done with Cecilia. Cecilia operates on top of Csound, the audio/dsp engine from Barry Vercoe at MIT.
->
-> **CONTEXT**
->
-> Cecilia was built for musicians and programmers, which I happen to be. Cecilia was first developped as a "musique concrète" composition system in 1995-96. It ran on SGI IRIX workstations. The idea was to replace our old analog/MIDI studios at the Faculté de musique of the Université de Montréal with a unified digital sound production environment. Hence the "module" concept of individual Csound code blocks to fill all the functions of traditional "musique concrète" studio gear. The interface was built around time variant functions to allow composing time contours of any processing control parameter. Realtime screen and MIDI sliders were provided for interaction and recording of "gestures".
->
-> The very first version of Cecilia was known as "Cynthia" and it was an editor for csound orchestras and scores. That is the Cecilia editor today. It provides services to the programmer. There is syntax highlighting, a quick syntax referencer, an opcode inserter, and shortcuts to the csound manual. Keyboard bindings mostly follow the emacs scheme and there are window panes for interface, orchestras and score definitions.
->
-> Cecilia also contains a powerful score generation language called Cybil. It draws ancestry to CCRMA's Score program by Leland Smith. This is an area in Cecilia that bares exploring. There are wonderful algorithms to be found. All of Cecilia is constructed in tcl/tk, a slow yet appropriate scripting language as Cecilia does no audio computations.
->
-> Cecilia was initially developed by Alexandre Burton and Jean Piché of the Faculté de Musique at Université de Montréal from 1995 to 1998. It was then ported to Linux by Dave Philips. Stephan Bourgeois and Yves de Champlain also contributed. It is currently maintained by Bill Beck, Phil Sobolik, and Hans-Christoph Steiner. The 2.5 OSX version is maintained by Jean Piché.
->
-> Cecilia runs under the LGPL licence. Its official, and I think it means you can feed this code to your dog as long as it has my name in it.
 
 ---
 
@@ -107,13 +104,13 @@ An archival repository for abandoned, discontinued, or hard-to-find software too
 |                  |                                                                                                          |
 | ---------------- | -------------------------------------------------------------------------------------------------------- |
 | **Author(s)**    | Flavio Tordini                                                                                           |
-| **License**      | Unknown                                                                                                  |
-| **Platform**     | Cross-platform                                                                                           |
-| **Original URL** | [flavio.tordini.org](http://flavio.tordini.org/csedit)                                                   |
+| **License**      | — (source available on request from author)                                                              |
+| **Platform**     | Windows                                                                                                  |
+| **Original URL** | [flavio.tordini.org/csound-editor/](http://flavio.tordini.org/csound-editor/)                            |
 | **Archive URL**  | [Wayback Machine](https://web.archive.org/web/20120722015835/http://flavio.tordini.org/files/csedit.zip) |
 | **Archive file** | `csedit.zip`                                                                                             |
 
-> CsEdit is an editor for Csound files.
+> An integrated development environment for Csound compilers (v1.4.149). Features syntax highlighting, integrated sound player, code outline, in-context opcode help, related files panel, opcode picker, and orchestra/score conversion to/from unified .csd format. Requires Visual Basic 6 runtime files.
 
 ---
 
@@ -133,13 +130,13 @@ An archival repository for abandoned, discontinued, or hard-to-find software too
 
 ## Cabel
 
-|                  |                                                                           |
-| ---------------- | ------------------------------------------------------------------------- |
-| **Author(s)**    | `segoh`, `senorhoss` (SourceForge handles)                                |
-| **License**      | GPL-2.0                                                                   |
-| **Platform**     | Cross-platform (Python/wxWidgets)                                         |
-| **Original URL** | [sourceforge.net/projects/cabel](https://sourceforge.net/projects/cabel/) |
-| **Archive file** | `cabel-0.85.tar.gz`                                                       |
+|                  |                                                                              |
+| ---------------- | ---------------------------------------------------------------------------- |
+| **Author(s)**    | Sebastian Gutsfeld (`segoh`), Matthias Thar (`hiast2`) (SourceForge handles) |
+| **License**      | GPL-2.0                                                                      |
+| **Platform**     | Cross-platform (Python/wxWidgets)                                            |
+| **Original URL** | [sourceforge.net/projects/cabel](https://sourceforge.net/projects/cabel/)    |
+| **Archive file** | `cabel-0.85.tar.gz`                                                          |
 
 > Cabel is a graphical user interface for building Csound instruments by patching modules similar to modular synthesizers. Cabel modules are defined in XML files, so anybody with some Csound knowledge can write his/her own modules and play with them.
 
@@ -147,15 +144,15 @@ An archival repository for abandoned, discontinued, or hard-to-find software too
 
 ## CSFE
 
-|                  |            |
-| ---------------- | ---------- |
-| **Author(s)**    | Unknown    |
-| **License**      | Unknown    |
-| **Platform**     | Unknown    |
-| **Original URL** | —          |
-| **Archive file** | `CSFE.tgz` |
+|                  |                                                                                       |
+| ---------------- | ------------------------------------------------------------------------------------- |
+| **Author(s)**    | Maurizio Umberto Puxeddu (SourceForge: `mupuxeddu`)                                   |
+| **License**      | GPL-2.0                                                                               |
+| **Platform**     | BSD, Linux                                                                            |
+| **Original URL** | [sourceforge.net/projects/pythonsound](https://sourceforge.net/projects/pythonsound/) |
+| **Archive file** | `CSFE-3.2.tar.bz2`, `CSFE-3.2.1.tar.bz2`                                              |
 
-> _Description unavailable — if you have information about this project, please contribute._
+> Part of the Python Sound Project, which aims to develop a productive community around Python, Csound and other synthesis engines as tools for algorithmic composition of electroacoustic music.
 
 ---
 
@@ -226,11 +223,11 @@ An archival repository for abandoned, discontinued, or hard-to-find software too
 | ---------------- | ---------------------------------------------------------------------------- |
 | **Author(s)**    | Jean-Pierre Lemoine                                                          |
 | **License**      | Unknown                                                                      |
-| **Platform**     | Windows (cross-platform potential via Java/Eclipse RCP)                      |
+| **Platform**     | Windows, Linux (Java)                                                        |
 | **Original URL** | [Csound Journal, Issue 5](https://csoundjournal.com/issue5/HPKcomposer.html) |
 | **Archive file** | `hpkc22.zip`                                                                 |
 
-> HPKComposer is an integrated composition tool for creating Audio/Video pieces. It is a Csound 5.0 based application built as an Eclipse Rich Client Platform (RCP) Java application. It provides real-time execution of compositions by Csound, linear-segments-based evolution of parameters, a Csound syntax-assisting editor, and an OpenGL pixel shader engine (via LWJGL) for image processing synchronized with sound synthesis.
+> A Java-based GUI tool for building sound compositions with Csound and 3D worlds described in VRML97, where graphical object evolutions follow sound parameter evolutions. Supports MIDI interaction with graphical objects. Tested on Windows 95/98/NT and Linux.
 
 ---
 
@@ -259,6 +256,132 @@ An archival repository for abandoned, discontinued, or hard-to-find software too
 | **Archive file** | —                                                                                                         |
 
 > The ACCCI (Amsterdam Catalogue of Csound Computer Instruments) includes approximately 100 documented SWSS instruments, amongst which all of Risset's 25 Bell Lab Catalogue instruments and ca. 75 other instruments focussing on various aspects of Software Sound Synthesis (SWSS). All instruments have been programmed adopting one style, with strong emphasis on documentation and transparency. The corpus of instruments is systematically subdivided into a hierarchy of main groups and subgroups according to synthesis technique or topic. All programs are ready to run with the SWSS package Csound. Discussions and flowcharts are included in Encapsulated Postscript format (.eps files).
+
+---
+
+## Corn Bucket
+
+|                  |                                                                                          |
+| ---------------- | ---------------------------------------------------------------------------------------- |
+| **Author(s)**    | Tom Erbe (SoundHack)                                                                     |
+| **License**      | —                                                                                        |
+| **Platform**     | Mac OS 9; Mac OS X update by Anthony Kozar                                               |
+| **Original URL** | [soundhack.com/freeware/the-boneyard/](https://www.soundhack.com/freeware/the-boneyard/) |
+| **Archive file** | —                                                                                        |
+
+> A granular score generator for Csound, originally written for Mac OS 9. Distributed as part of the SoundHack "Boneyard" freeware collection. Source code was made available by the author.
+
+---
+
+## Ceres
+
+|                  |                                                                                                              |
+| ---------------- | ------------------------------------------------------------------------------------------------------------ |
+| **Author(s)**    | Stanko Juzbasic (Ceres3); based on Ceres by Øyvind Hammer and Ceres2 by Jonathan F. Lee                      |
+| **License**      | —                                                                                                            |
+| **Platform**     | SGI IRIX, Linux, LinuxPPC, macOS X                                                                           |
+| **Original URL** | [sites.music.columbia.edu/stanko/Ceres3_help.html](https://sites.music.columbia.edu/stanko/Ceres3_help.html) |
+| **Archive file** | —                                                                                                            |
+
+> A free, frequency-domain cut-and-paste sound editor based on phase-vocoder analysis and resynthesis. Ceres3 extends the original Ceres and Ceres2 with new spectral transforms, control functions, and Csound score export. Supports SGI IRIX, Linux, LinuxPPC and macOS X.
+
+---
+
+## ngen
+
+|                  |                                                                    |
+| ---------------- | ------------------------------------------------------------------ |
+| **Author(s)**    | Mikel Kuehn                                                        |
+| **License**      | Copyright © Mikel Kuehn, All Rights Reserved                       |
+| **Platform**     | macOS, Linux, Windows                                              |
+| **Original URL** | [mikelkuehn.com/index.php/ng](https://mikelkuehn.com/index.php/ng) |
+| **Archive file** | —                                                                  |
+
+> A multi-platform computer-music application that creates Csound score files and standard MIDI files from event-list descriptions. Current version: 2.1.3 (2020).
+
+---
+
+## Pmask
+
+|                  |                                                                                       |
+| ---------------- | ------------------------------------------------------------------------------------- |
+| **Author(s)**    | Maurizio Umberto Puxeddu (SourceForge: `mupuxeddu`)                                   |
+| **License**      | GPL-2.0                                                                               |
+| **Platform**     | BSD, Linux                                                                            |
+| **Original URL** | [sourceforge.net/projects/pythonsound](https://sourceforge.net/projects/pythonsound/) |
+| **Archive file** | `pmask-0.7.tar.bz2`                                                                   |
+
+> A Python implementation of the CMask algorithmic composition approach (originally by André Bartetzki). Pmask generates Csound score files using masks, stochastic and chaotic generators, and breakpoint-segment objects. Generators are exposed as composable Python classes (`Mask`, `PowerSegment`, `ScoreSection`, `Lorenz`, `Julia`, `List`, etc.).
+
+---
+
+## Bol Processor
+
+|                  |                                                     |
+| ---------------- | --------------------------------------------------- |
+| **Author(s)**    | Bernard Bel; contributors via open-source community |
+| **License**      | Open-source (see project site)                      |
+| **Platform**     | macOS, Linux, Windows                               |
+| **Original URL** | [bolprocessor.org](https://bolprocessor.org)        |
+| **Archive file** | —                                                   |
+
+> An open-source platform for music composition and improvisation using generative grammars and a polymetric time model. Outputs real-time MIDI, MIDI files, and Csound scores. BP3 (multi-platform, 2020–) provides a C-language core engine with a PHP interface and a standalone macOS application. Awarded the 1997 Bourges International Prize (ex aequo with Cecilia) in the computer-aided composition category.
+
+---
+
+## Lettuce
+
+|                  |                                                     |
+| ---------------- | --------------------------------------------------- |
+| **Author(s)**    | Rory Walsh (EAR)                                    |
+| **License**      | —                                                   |
+| **Platform**     | Windows                                             |
+| **Original URL** | [ear.ie/Lettuce.htm](http://www.ear.ie/Lettuce.htm) |
+| **Archive file** | —                                                   |
+
+> A Csound editor and standalone GUI application builder built on the Csound 5 host API. Features syntax highlighting, breakpoint editor, code repository, in-context opcode help, and a declarative `<Lettuce>` tag system for building standalone Windows GUI applications (with buttons, scrollbars, combo boxes, etc.) directly from .csd files.
+
+---
+
+## AlgoScore
+
+|                  |                                                                                           |
+| ---------------- | ----------------------------------------------------------------------------------------- |
+| **Author(s)**    | Jonatan Liljedahl (Kymatica)                                                              |
+| **License**      | GPL                                                                                       |
+| **Platform**     | Linux, macOS X                                                                            |
+| **Original URL** | [kymatica.com — AlgoScore](http://www.bitminds.net/kymatica/index.php/Software/AlgoScore) |
+| **Archive file** | —                                                                                         |
+
+> A graphical environment for algorithmic composition where music is constructed directly in an interactive graphical score. Outputs audio through CSound, control data through JACK, or MIDI. Highly customisable and extensible with the Nasal scripting language. Scores can be exported to PDF or SVG.
+
+---
+
+## Composers' Desktop Project (CDP)
+
+|                  |                                                                                                          |
+| ---------------- | -------------------------------------------------------------------------------------------------------- |
+| **Author(s)**    | Composers' Desktop Project (international cooperative network, UK)                                       |
+| **License**      | Commercial (free online updates for registered users)                                                    |
+| **Platform**     | Windows, macOS X                                                                                         |
+| **Original URL** | [Wayback Machine](https://web.archive.org/web/20060212000000*/http://www.bath.ac.uk/~masjpf/CDP/CDP.htm) |
+| **Archive file** | —                                                                                                        |
+
+> A software-only music system for off-line sound transformation designed for electroacoustic composers and sound designers. Release 5.0 (2005) added macOS X support, 24-bit/96kHz audio, 40+ new programs, and revised HTML documentation. Selected for Electronic Musician 2003 Editor's Choice.
+
+---
+
+## NetCsound
+
+|                  |                                                                       |
+| ---------------- | --------------------------------------------------------------------- |
+| **Author(s)**    | NOS-Dream project (University of Bath)                                |
+| **License**      | —                                                                     |
+| **Platform**     | Web service                                                           |
+| **Original URL** | [dream.cs.bath.ac.uk/netcsound](http://dream.cs.bath.ac.uk/netcsound) |
+| **Archive file** | —                                                                     |
+
+> A web service for rendering Csound .csd files to audio (WAV, AIFF, OGG) on a remote server, with results delivered by email. Developed by the NOS-Dream (Network-Oriented Systems) project at the University of Bath.
 
 ---
 
