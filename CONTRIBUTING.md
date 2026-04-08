@@ -27,13 +27,20 @@ Thank you for helping preserve Csound's software heritage! This repository uses 
    - Author(s)
    - Original URL or archive link (Wayback Machine, SourceForge, GitHub, etc.)
    - Screenshot (if available, place it in a `screenshots/` folder)
-5. **Commit and push** your branch:
+5. **Commit and push** your branch using the conventional commit format `software(type): description`:
 
    ```bash
    git add .
-   git commit -m "Add <software-name> v<version>"
+   git commit -m "cecilia(feat): add v2.0.5 archive"
    git push origin software-name
    ```
+
+   Common types: `feat` (new archive/entry), `fix` (corrections), `chore` (maintenance), `docs` (documentation only).
+
+   More examples:
+   - `cmask(feat): add macOS binary`
+   - `cecilia(chore): correct documentation`
+   - `winsound(docs): add original description`
 
 6. **Open a Pull Request** against `main`.
 
@@ -58,6 +65,7 @@ Thank you for helping preserve Csound's software heritage! This repository uses 
 | **Original URL** | [example.com](https://example.com)                 |
 | **Archive URL**  | [Wayback Machine](https://web.archive.org/web/...) |
 | **Archive file** | `filename.tar.gz`                                  |
+| **Paper**        | [Paper title](https://example.com/paper.pdf) _(if available)_ |
 
 > Original description copied verbatim from the project page.
 
