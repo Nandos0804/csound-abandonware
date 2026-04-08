@@ -62,7 +62,7 @@ An archival repository for abandoned, discontinued, or hard-to-find software too
 | **License**      | LGPL                                                                                                                                                                                                                                                                  |
 | **Platform**     | Cross-platform (Tcl/Tk)                                                                                                                                                                                                                                               |
 | **Original URL** | [jeanpiche.com](http://jeanpiche.com/frame_software.htm), [SourceForge](https://sourceforge.net/projects/cecilia/files/)                                                                                                                                              |
-| **Paper**        | [DAFx 2006](https://dafx.de/paper-archive/2006/papers/p_315.pdf)                                                                                                                                                                                                     |
+| **Paper**        | [DAFx 2006](https://dafx.de/paper-archive/2006/papers/p_315.pdf)                                                                                                                                                                                                      |
 | **Archive file** | `cecilia-2.0.5.tar.gz`                                                                                                                                                                                                                                                |
 
 > Cecilia is a program to make sound. Sound in its widest definition. Sound as music, sound as composition, sound as accessory.
@@ -265,10 +265,12 @@ An archival repository for abandoned, discontinued, or hard-to-find software too
 ## Repository Structure
 
 ```bash
-├── Linux/          # Linux builds and source archives
-├── Mac/            # macOS builds
-├── Windows/        # Windows builds
-├── screenshots/    # Screenshots of archived software (if available)
+├── Linux/          # Linux binaries
+├── Mac/            # macOS binaries
+├── Windows/        # Windows binaries
+├── src/            # Source code archives and source tarballs
+├── Unsorted/       # Files not yet classified
+├── Screenshots/    # Screenshots of archived software (if available)
 ├── .gitattributes  # Git LFS tracking rules
 ├── CONTRIBUTING.md # How to contribute
 └── README.md       # This file
