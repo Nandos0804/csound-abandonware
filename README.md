@@ -104,7 +104,8 @@ An archival repository for abandoned, discontinued, or hard-to-find software too
 |                  |                                                                                                          |
 | ---------------- | -------------------------------------------------------------------------------------------------------- |
 | **Author(s)**    | Flavio Tordini                                                                                           |
-| **License**      | — (source available on request from author)                                                              |
+| **License**      | Unknown                                                                                                  |  
+| **Notes**        | Source available on request from author.                                                                 |  
 | **Platform**     | Windows                                                                                                  |
 | **Original URL** | [flavio.tordini.org/csound-editor/](http://flavio.tordini.org/csound-editor/)                            |
 | **Archive URL**  | [Wayback Machine](https://web.archive.org/web/20120722015835/http://flavio.tordini.org/files/csedit.zip) |
@@ -353,7 +354,7 @@ An archival repository for abandoned, discontinued, or hard-to-find software too
 | **Original URL** | [kymatica.com — AlgoScore](http://www.bitminds.net/kymatica/index.php/Software/AlgoScore) |
 | **Archive file** | —                                                                                         |
 
-> A graphical environment for algorithmic composition where music is constructed directly in an interactive graphical score. Outputs audio through CSound, control data through JACK, or MIDI. Highly customisable and extensible with the Nasal scripting language. Scores can be exported to PDF or SVG.
+> A graphical environment for algorithmic composition where music is constructed directly in an interactive graphical score. Outputs audio through Csound, control data through JACK, or MIDI. Highly customisable and extensible with the Nasal scripting language. Scores can be exported to PDF or SVG.  
 
 ---
 
